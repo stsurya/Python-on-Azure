@@ -10,4 +10,5 @@
 
 import os
 
-print (os.path.abspath("concepts.md"))
+print(os.listdir("C:/Users/stchatrathi/Desktop/POCs/Terraform"))
+print(os.getcwd())
