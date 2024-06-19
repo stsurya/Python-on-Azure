@@ -66,3 +66,21 @@ Eg: `os.getcwd()`
 
 **os.chdir():** It'll change the directory.
 Eg: `os.chdir("mydir")`
+
+**os.chmod():** To change the permission of file
+Eg: `os.chmod(path, mode)`
+stat.S_IREAD - Read by owner.
+stat.S_IWRITE - Write by owner.
+stat.S_IEXEC - Execute by owner.
+stat.S_IRWXU - Read, write, and execute by owner.
+stat.S_IRGRP - Read by group
+stat.S_IWGRP - Write by group
+stat.S_IXGRP - Execute by group
+stat.S_IRWXG - Read, write, and execute by group
+stat.S_IROTH - Read by others
+stat.S_IWOTH - Write by others
+stat.S_IXOTH - Execute by others
+stat.S_IRWXO - Read, write, and execute by others
+
+**os.fchown():**
+Eg: `os.chown(fd, uid, gid)`
